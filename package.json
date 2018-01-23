@@ -1,0 +1,62 @@
+{
+  "name": "webpack-mpa-example",
+  "version": "1.0.0",
+  "description": "webpack instance of Multi-page development.",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev supervisor -w routes ./bin/www",
+    "build": "webpack --config webpack.config.js",
+    "production": "webpack --config webpack.prod.config.js & cross-env NODE_ENV=production node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Vinson-sheep/Webpack-MPA-example.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Vinson-sheep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinson-sheep/Webpack-MPA-example/issues"
+  },
+  "homepage": "https://github.com/Vinson-sheep/Webpack-MPA-example#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "~1.18.2",
+    "cnpm": "^5.1.1",
+    "cookie-parser": "~1.4.3",
+    "cross-env": "^5.1.3",
+    "css-hot-loader": "^1.3.5",
+    "css-loader": "^0.28.9",
+    "debug": "~2.6.9",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "install": "^0.10.4",
+    "jade": "~1.11.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "morgan": "~1.9.0",
+    "path": "^0.12.7",
+    "raw-loader": "^0.5.1",
+    "scss-loader": "^0.0.1",
+    "serve-favicon": "~2.4.5",
+    "style-loader": "^0.19.1",
+    "transform-runtime": "^0.0.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-hot-middleware": "^2.21.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  }
+}
