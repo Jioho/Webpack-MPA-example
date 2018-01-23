@@ -16,6 +16,12 @@
 
 
 
+
+博客：http://www.vinsongeek.com/2018/01/19/webpack%E5%92%8Cexpress%E5%BC%80%E5%8F%91%E9%83%A8%E7%BD%B2/#1-express
+
+
+
+
 ## 开始
 
 1. clone这个仓库
@@ -49,6 +55,12 @@ Compared with many instances, this example has the advantages:
 3. Support for modularity management of HTML, CSS, and js, while examples contain code that is easy to understand.
 4. Support express for routing functions and apis, perfect for browser access.
 5. Suitable for small and medium sized project development.
+
+
+
+
+blog：http://www.vinsongeek.com/2018/01/19/webpack%E5%92%8Cexpress%E5%BC%80%E5%8F%91%E9%83%A8%E7%BD%B2/#1-express
+
 
 
 

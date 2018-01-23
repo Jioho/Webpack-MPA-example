@@ -1,10 +1,10 @@
 {
   "name": "webpack-mpa-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack instance of Multi-page development.",
   "main": "app.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev supervisor -w routes ./bin/www",
+    "start": "cross-env NODE_ENV=dev supervisor -w routes,app.js ./bin/www",
     "build": "webpack --config webpack.config.js",
     "production": "webpack --config webpack.prod.config.js & cross-env NODE_ENV=production node ./bin/www"
   },
